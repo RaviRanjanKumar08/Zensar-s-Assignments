@@ -1,0 +1,8 @@
+F:\C#\21 Jan_Assignment (Array)\21 Jan_Assignment (Array)\bin\Debug\21 Jan_Assignment (Array).exe.config
+F:\C#\21 Jan_Assignment (Array)\21 Jan_Assignment (Array)\bin\Debug\21 Jan_Assignment (Array).exe
+F:\C#\21 Jan_Assignment (Array)\21 Jan_Assignment (Array)\bin\Debug\21 Jan_Assignment (Array).pdb
+F:\C#\21 Jan_Assignment (Array)\21 Jan_Assignment (Array)\obj\Debug\21 Jan_Assignment (Array).csproj.AssemblyReference.cache
+F:\C#\21 Jan_Assignment (Array)\21 Jan_Assignment (Array)\obj\Debug\21 Jan_Assignment (Array).csproj.SuggestedBindingRedirects.cache
+F:\C#\21 Jan_Assignment (Array)\21 Jan_Assignment (Array)\obj\Debug\21 Jan_Assignment (Array).csproj.CoreCompileInputs.cache
+F:\C#\21 Jan_Assignment (Array)\21 Jan_Assignment (Array)\obj\Debug\21 Jan_Assignment (Array).exe
+F:\C#\21 Jan_Assignment (Array)\21 Jan_Assignment (Array)\obj\Debug\21 Jan_Assignment (Array).pdb

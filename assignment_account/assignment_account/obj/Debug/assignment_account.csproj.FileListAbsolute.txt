@@ -1,0 +1,8 @@
+F:\C#\assignment_account\assignment_account\bin\Debug\assignment_account.exe.config
+F:\C#\assignment_account\assignment_account\bin\Debug\assignment_account.exe
+F:\C#\assignment_account\assignment_account\bin\Debug\assignment_account.pdb
+F:\C#\assignment_account\assignment_account\obj\Debug\assignment_account.csproj.AssemblyReference.cache
+F:\C#\assignment_account\assignment_account\obj\Debug\assignment_account.csproj.SuggestedBindingRedirects.cache
+F:\C#\assignment_account\assignment_account\obj\Debug\assignment_account.csproj.CoreCompileInputs.cache
+F:\C#\assignment_account\assignment_account\obj\Debug\assignment_account.exe
+F:\C#\assignment_account\assignment_account\obj\Debug\assignment_account.pdb

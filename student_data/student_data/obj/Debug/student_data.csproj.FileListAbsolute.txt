@@ -1,0 +1,8 @@
+F:\C#\student_data\student_data\bin\Debug\student_data.exe.config
+F:\C#\student_data\student_data\bin\Debug\student_data.exe
+F:\C#\student_data\student_data\bin\Debug\student_data.pdb
+F:\C#\student_data\student_data\obj\Debug\student_data.csproj.AssemblyReference.cache
+F:\C#\student_data\student_data\obj\Debug\student_data.csproj.SuggestedBindingRedirects.cache
+F:\C#\student_data\student_data\obj\Debug\student_data.csproj.CoreCompileInputs.cache
+F:\C#\student_data\student_data\obj\Debug\student_data.exe
+F:\C#\student_data\student_data\obj\Debug\student_data.pdb

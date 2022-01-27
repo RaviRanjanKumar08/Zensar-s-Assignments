@@ -1,0 +1,8 @@
+F:\C#\college_student\college_student\bin\Debug\college_student.exe.config
+F:\C#\college_student\college_student\bin\Debug\college_student.exe
+F:\C#\college_student\college_student\bin\Debug\college_student.pdb
+F:\C#\college_student\college_student\obj\Debug\college_student.csproj.AssemblyReference.cache
+F:\C#\college_student\college_student\obj\Debug\college_student.csproj.SuggestedBindingRedirects.cache
+F:\C#\college_student\college_student\obj\Debug\college_student.csproj.CoreCompileInputs.cache
+F:\C#\college_student\college_student\obj\Debug\college_student.exe
+F:\C#\college_student\college_student\obj\Debug\college_student.pdb

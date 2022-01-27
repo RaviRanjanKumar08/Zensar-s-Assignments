@@ -1,0 +1,8 @@
+F:\C#\21 Jan_Assignment (Arithmetic)\21 Jan_Assignment (Arithmetic)\bin\Debug\21 Jan_Assignment (Arithmetic).exe.config
+F:\C#\21 Jan_Assignment (Arithmetic)\21 Jan_Assignment (Arithmetic)\bin\Debug\21 Jan_Assignment (Arithmetic).exe
+F:\C#\21 Jan_Assignment (Arithmetic)\21 Jan_Assignment (Arithmetic)\bin\Debug\21 Jan_Assignment (Arithmetic).pdb
+F:\C#\21 Jan_Assignment (Arithmetic)\21 Jan_Assignment (Arithmetic)\obj\Debug\21 Jan_Assignment (Arithmetic).csproj.AssemblyReference.cache
+F:\C#\21 Jan_Assignment (Arithmetic)\21 Jan_Assignment (Arithmetic)\obj\Debug\21 Jan_Assignment (Arithmetic).csproj.SuggestedBindingRedirects.cache
+F:\C#\21 Jan_Assignment (Arithmetic)\21 Jan_Assignment (Arithmetic)\obj\Debug\21 Jan_Assignment (Arithmetic).csproj.CoreCompileInputs.cache
+F:\C#\21 Jan_Assignment (Arithmetic)\21 Jan_Assignment (Arithmetic)\obj\Debug\21 Jan_Assignment (Arithmetic).exe
+F:\C#\21 Jan_Assignment (Arithmetic)\21 Jan_Assignment (Arithmetic)\obj\Debug\21 Jan_Assignment (Arithmetic).pdb

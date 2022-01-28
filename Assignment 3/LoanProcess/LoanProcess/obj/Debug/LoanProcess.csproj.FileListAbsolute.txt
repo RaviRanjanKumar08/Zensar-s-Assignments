@@ -1,0 +1,16 @@
+F:\C#\26_Jan\LoanProcess\LoanProcess\bin\Debug\LoanProcess.exe.config
+F:\C#\26_Jan\LoanProcess\LoanProcess\bin\Debug\LoanProcess.exe
+F:\C#\26_Jan\LoanProcess\LoanProcess\bin\Debug\LoanProcess.pdb
+F:\C#\26_Jan\LoanProcess\LoanProcess\obj\Debug\LoanProcess.csproj.AssemblyReference.cache
+F:\C#\26_Jan\LoanProcess\LoanProcess\obj\Debug\LoanProcess.csproj.SuggestedBindingRedirects.cache
+F:\C#\26_Jan\LoanProcess\LoanProcess\obj\Debug\LoanProcess.csproj.CoreCompileInputs.cache
+F:\C#\26_Jan\LoanProcess\LoanProcess\obj\Debug\LoanProcess.exe
+F:\C#\26_Jan\LoanProcess\LoanProcess\obj\Debug\LoanProcess.pdb
+F:\C#\26_Jan\Assignment 3\LoanProcess\LoanProcess\bin\Debug\LoanProcess.exe.config
+F:\C#\26_Jan\Assignment 3\LoanProcess\LoanProcess\bin\Debug\LoanProcess.exe
+F:\C#\26_Jan\Assignment 3\LoanProcess\LoanProcess\bin\Debug\LoanProcess.pdb
+F:\C#\26_Jan\Assignment 3\LoanProcess\LoanProcess\obj\Debug\LoanProcess.csproj.AssemblyReference.cache
+F:\C#\26_Jan\Assignment 3\LoanProcess\LoanProcess\obj\Debug\LoanProcess.csproj.SuggestedBindingRedirects.cache
+F:\C#\26_Jan\Assignment 3\LoanProcess\LoanProcess\obj\Debug\LoanProcess.csproj.CoreCompileInputs.cache
+F:\C#\26_Jan\Assignment 3\LoanProcess\LoanProcess\obj\Debug\LoanProcess.exe
+F:\C#\26_Jan\Assignment 3\LoanProcess\LoanProcess\obj\Debug\LoanProcess.pdb

@@ -1,0 +1,8 @@
+F:\C#\26_Jan\Assignment 3\Book_Info\Book_Info\bin\Debug\Book_Info.exe.config
+F:\C#\26_Jan\Assignment 3\Book_Info\Book_Info\bin\Debug\Book_Info.exe
+F:\C#\26_Jan\Assignment 3\Book_Info\Book_Info\bin\Debug\Book_Info.pdb
+F:\C#\26_Jan\Assignment 3\Book_Info\Book_Info\obj\Debug\Book_Info.csproj.AssemblyReference.cache
+F:\C#\26_Jan\Assignment 3\Book_Info\Book_Info\obj\Debug\Book_Info.csproj.SuggestedBindingRedirects.cache
+F:\C#\26_Jan\Assignment 3\Book_Info\Book_Info\obj\Debug\Book_Info.csproj.CoreCompileInputs.cache
+F:\C#\26_Jan\Assignment 3\Book_Info\Book_Info\obj\Debug\Book_Info.exe
+F:\C#\26_Jan\Assignment 3\Book_Info\Book_Info\obj\Debug\Book_Info.pdb

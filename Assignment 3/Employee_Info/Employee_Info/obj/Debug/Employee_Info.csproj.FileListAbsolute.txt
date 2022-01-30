@@ -1,0 +1,8 @@
+F:\C#\26_Jan\Assignment 3\Employee_Info\Employee_Info\bin\Debug\Employee_Info.exe.config
+F:\C#\26_Jan\Assignment 3\Employee_Info\Employee_Info\bin\Debug\Employee_Info.exe
+F:\C#\26_Jan\Assignment 3\Employee_Info\Employee_Info\bin\Debug\Employee_Info.pdb
+F:\C#\26_Jan\Assignment 3\Employee_Info\Employee_Info\obj\Debug\Employee_Info.csproj.AssemblyReference.cache
+F:\C#\26_Jan\Assignment 3\Employee_Info\Employee_Info\obj\Debug\Employee_Info.csproj.SuggestedBindingRedirects.cache
+F:\C#\26_Jan\Assignment 3\Employee_Info\Employee_Info\obj\Debug\Employee_Info.csproj.CoreCompileInputs.cache
+F:\C#\26_Jan\Assignment 3\Employee_Info\Employee_Info\obj\Debug\Employee_Info.exe
+F:\C#\26_Jan\Assignment 3\Employee_Info\Employee_Info\obj\Debug\Employee_Info.pdb

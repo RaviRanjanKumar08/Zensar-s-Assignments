@@ -1,0 +1,8 @@
+F:\C#\26_Jan\Assignment 3\struct_book\struct_book\bin\Debug\struct_book.exe.config
+F:\C#\26_Jan\Assignment 3\struct_book\struct_book\bin\Debug\struct_book.exe
+F:\C#\26_Jan\Assignment 3\struct_book\struct_book\bin\Debug\struct_book.pdb
+F:\C#\26_Jan\Assignment 3\struct_book\struct_book\obj\Debug\struct_book.csproj.AssemblyReference.cache
+F:\C#\26_Jan\Assignment 3\struct_book\struct_book\obj\Debug\struct_book.csproj.SuggestedBindingRedirects.cache
+F:\C#\26_Jan\Assignment 3\struct_book\struct_book\obj\Debug\struct_book.csproj.CoreCompileInputs.cache
+F:\C#\26_Jan\Assignment 3\struct_book\struct_book\obj\Debug\struct_book.exe
+F:\C#\26_Jan\Assignment 3\struct_book\struct_book\obj\Debug\struct_book.pdb

@@ -1,0 +1,8 @@
+F:\C#\26_Jan\Assignment 4\Product_Info\Product_Info\bin\Debug\Product_Info.exe.config
+F:\C#\26_Jan\Assignment 4\Product_Info\Product_Info\bin\Debug\Product_Info.exe
+F:\C#\26_Jan\Assignment 4\Product_Info\Product_Info\bin\Debug\Product_Info.pdb
+F:\C#\26_Jan\Assignment 4\Product_Info\Product_Info\obj\Debug\Product_Info.csproj.AssemblyReference.cache
+F:\C#\26_Jan\Assignment 4\Product_Info\Product_Info\obj\Debug\Product_Info.csproj.SuggestedBindingRedirects.cache
+F:\C#\26_Jan\Assignment 4\Product_Info\Product_Info\obj\Debug\Product_Info.csproj.CoreCompileInputs.cache
+F:\C#\26_Jan\Assignment 4\Product_Info\Product_Info\obj\Debug\Product_Info.exe
+F:\C#\26_Jan\Assignment 4\Product_Info\Product_Info\obj\Debug\Product_Info.pdb

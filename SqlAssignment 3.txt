@@ -1,0 +1,143 @@
+
+/*
+1.	Write a T-SQL Program to generate complete payslip of a given employee with respect to the following condition
+a)	HRA  as 10% Of sal
+b)	DA as  20% of sal
+c)	PF as 8% of sal
+d)	IT as 5% of sal
+e)	Deductions as sum of PF and IT
+f)	Gross Salary as sum of SAL,HRA,DA and Deductions
+g)	Net salary as  Gross salary- Deduction
+*/
+begin
+declare @salary float=25000
+declare @SAL float
+declare @HRA float,@DA float,@PF float,@IT float
+declare @deductions float,@grossSal float,@netSal float
+set @HRA=@salary*0.1
+print 'HRA is:'
+print @HRA 
+set @DA=@salary*0.2
+print 'DA is:'
+print @DA
+set @PF=@salary*0.08
+print 'PF is:'
+print @PF
+set @IT=@salary*0.05
+print 'IT is:'
+print @IT
+set @deductions=@PF+@IT
+print 'Deductions is:'
+print @deductions
+set @SAL=@salary-(@HRA+@DA+@deductions)
+set @grossSal=@SAL+(@HRA+@DA+@deductions)
+print 'Gross salary is'
+print @grossSal
+set @netSal=@grossSal-@deductions
+print 'Net Salary is'
+print @netSal
+end
+------------------------------------------------------------------------------------------------------
+/*
+2. Write a T-SQL Program to Display complete result of a given student. 
+   (Note: Consider 10th standard result sheet and Student table structure as (sno,sname,maths,phy,comp)
+*/
+
+begin
+declare @S_No int,@S_Name varchar(20), @Maths int, @Physics int, @Computer int, @Total int, @Percentage float
+declare @Result varchar(20)
+set @S_No=1
+set @S_Name='Suresh'
+set @Maths=79
+set @Physics=86
+set @Computer=73
+set @Total=(@Maths+@Physics+@Computer)
+print  @Total
+set @Percentage=(@Total*100)/300
+print @Percentage 
+create table Result(
+S_no int, S_name varchar(20),Mat int, Phys int,Comput int,Tot int,Per float)
+insert into Result
+values(@S_No,@S_Name,@Maths,@Physics,@Computer,@Total,@Percentage)
+select *from Result
+end
+drop table Result
+
+-----------------------------------------------------------------------------------------------------------------
+--3. Write a T-SQL Program to find the factorial of a given number.
+
+begin 
+declare @num int
+declare @fact int
+set @num=7
+set @fact=1
+while @num>0
+ begin
+   set @fact=@fact*@num
+   set @num=@num-1  
+  end
+  print 'The Factorial of given number is:'
+  print @fact
+end
+-----------------------------------------------------------------------------------------------------------------
+--4. Create a stored procedure to generate multiplication tables up to a given number.
+create or alter procedure Multiplication
+begin 
+declare @j int=1,@n int=8,@t int
+while @j<=10
+begin
+set @t=@n*@j
+print @t
+set @j=@j+1
+end
+end
+-----execution of the procedure---
+exec Multiplication
+--------------------------------------------------------------------------------------------------------------
+/*
+5.Create a user defined function calculate Bonus for all employees of a  given job using following conditions
+a.For Deptno10 employees 15% of sal as bonus.
+b.For Deptno20 employees  20% of sal as bonus
+c.For Others employees 5%of sal as bonus
+*/
+use sqlAssignment
+select *from Employee
+create or alter function Calc_Bonus(@emp_job varchar(10))
+returns table
+as
+return (select Job, Sal ,Emp_name,Dept_Id from Employee where Job=@emp_job)
+go
+update Employee set Sal=Sal+(Sal*0.15) where Dept_Id=10
+update Employee set Sal=Sal+(Sal*0.2) where Dept_Id=20
+update Employee set Sal=Sal+(Sal*0.05) where Dept_Id<>10 and Dept_Id<>20
+select *from Calc_Bonus('EMPLOYEE')
+--------------------------------------------------------------------------------------------------------------
+/*
+6. Create a trigger to restrict data manipulation on EMP table during General holidays.
+   Display the error message like “Due to Independence day you cannot manipulate data”
+   Note: Create holiday table as (holiday_date,Holiday_name) store at least 4 holiday details
+*/
+create database HolidayList
+use HolidayList
+
+create table Holiday
+(date varchar(20),
+Holiday_Name varchar(20))
+
+insert into Holiday values
+('26-JAN','Republic Day'),
+('15-AUG','Independence Day'),
+('5-SEP','Teachers Day'),
+('25-DEC','Christmas'),
+('2-OCT','Gandhi Jayanthi')
+
+select *from Holiday
+
+create or alter trigger RestrictDataManipulation
+on Holiday
+instead of update
+as
+  Raiserror('Cannot make any changes since, it is fixed holiday',16,1)
+----execution to check------
+  update Holiday set date='29-March' where date='26-JAN'
+

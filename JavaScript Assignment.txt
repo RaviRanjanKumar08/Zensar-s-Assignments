@@ -1,0 +1,127 @@
+<!-- 1. Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {​​margin: 30px;}​​
+</style>
+</head>
+<body>
+<form>
+First Number : <input type="text" id="FirstNumber" /><br>
+Second Number: <input type="text" id="SecondNumber" /><br>
+<input type="button" onClick="multiplyBy()" Value="Multiply" />
+<input type="button" onClick="divideBy()" Value="Divide" />
+</form>
+<p>
+The Result is : <br> <span id = "result"></span>
+</p><script>
+function multiplyBy()
+{​​
+a = document.getElementById("FirstNumber").value;
+b = document.getElementById("SecondNumber").value;
+document.getElementById("result").innerHTML = a * b;
+}​​ function divideBy()
+{​​
+a = document.getElementById("FirstNumber").value;
+b = document.getElementById("SecondNumber").value;
+document.getElementById("result").innerHTML = a / b;
+}​​</script>
+</body>
+</html>
+
+-->---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!--2. Write a JavaScript to get the extension of a filename given by the user(hint: use split and pop())
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Extension of a filename</title>
+</head>
+<body>
+<form>
+<input type="file" id="file1" />
+<input type="button" value="Check Extension" onclick="checkFileExtension();"/>
+</form>
+<p style="font-style: italic;">The file extension is:
+<span class="output"></span>
+</p>
+<script language="javascript">
+function checkFileExtension()
+{​​
+fileName = document.querySelector('#file1').value;
+extension = fileName.split('.').pop();
+document.querySelector('.output').textContent = extension;
+}​​;
+</script>
+</body>
+</html>
+
+-->---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!--3. Write a JavaScript program to compute the sum of the given two integers. If the two values are same, then returns triple their sum
+<!Doctype html>
+<html>
+<head>
+</head>
+<body>
+<script>
+function add()
+{​​
+var a, b, c;
+a = parseInt(document.getElementById("first").value);
+b = parseInt(document.getElementById("second").value);
+if(a == b)
+{​​
+sum = 3 * (a + b);
+document.getElementById("answer").value = sum;
+}​​
+else
+{​​
+sum = a + b;
+document.getElementById("answer").value = sum;
+}​​
+}​​
+</script>
+<p>First Number: <input id="first"></p>
+<p>Second Number: <input id="second"></p>
+<button onclick="add()">Add</button>
+<p>sum = <input id="answer"></p>
+</body>
+</html>
+
+-->---------------------------------------------------------------------------------------------------------------------------------------
+
+<!--4. Write a JavaScript program to check whether two given integer values are in the range 50..99 (inclusive).
+Return true if both of them are in the said range, else false.-->
+
+<!--<!doctype html>
+<html>
+<head></head>
+<body>
+<script>
+function checkRange()
+{​​
+var a, b, c;
+a = parseInt(document.getElementById("first").value);
+b = parseInt(document.getElementById("second").value);
+if((a >= 50 && b <= 99) || (a >= 50 && b <= 99))
+{​​
+c = true;
+document.getElementById("answer").value = c;
+}​​
+else
+{​​
+c = false;
+document.getElementById("answer").value = c;
+}​​
+}​​
+</script>
+<p>First Number: <input id="first"></p>
+<p>Second Number: <input id="second"></p>
+<button onclick="checkRange()">Check Range</button>
+<p>In Range = <input id="answer"></p>
+</body>
+

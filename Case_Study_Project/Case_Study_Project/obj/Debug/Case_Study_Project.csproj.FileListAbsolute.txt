@@ -1,0 +1,8 @@
+F:\C#\26_Jan\Case_Study_Project\Case_Study_Project\bin\Debug\Case_Study_Project.exe.config
+F:\C#\26_Jan\Case_Study_Project\Case_Study_Project\bin\Debug\Case_Study_Project.exe
+F:\C#\26_Jan\Case_Study_Project\Case_Study_Project\bin\Debug\Case_Study_Project.pdb
+F:\C#\26_Jan\Case_Study_Project\Case_Study_Project\obj\Debug\Case_Study_Project.csproj.AssemblyReference.cache
+F:\C#\26_Jan\Case_Study_Project\Case_Study_Project\obj\Debug\Case_Study_Project.csproj.SuggestedBindingRedirects.cache
+F:\C#\26_Jan\Case_Study_Project\Case_Study_Project\obj\Debug\Case_Study_Project.csproj.CoreCompileInputs.cache
+F:\C#\26_Jan\Case_Study_Project\Case_Study_Project\obj\Debug\Case_Study_Project.exe
+F:\C#\26_Jan\Case_Study_Project\Case_Study_Project\obj\Debug\Case_Study_Project.pdb

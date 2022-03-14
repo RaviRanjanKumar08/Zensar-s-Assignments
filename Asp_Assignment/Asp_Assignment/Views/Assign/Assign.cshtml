@@ -1,0 +1,59 @@
+﻿
+@model Asp_Assignment.Context.tbl_assign
+
+@{
+    ViewBag.Title = "Assign";
+}
+<style>
+    .error{
+        color:red;
+    }
+</style>
+
+@using (Html.BeginForm("AddAssign","Assign", FormMethod.Post))
+{
+  <div class="container">
+     <div class="form-group">
+         @Html.HiddenFor(x=>x.Name)
+         <label>Name</label>
+         @Html.ValidationMessageFor(x => x.Name,"", new {@class="error"})
+         @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+     </div>
+     <div class="form-group">
+         <label>FamilyName</label>
+         @Html.ValidationMessageFor(x => x.FamilyName, "", new { @class = "error" })
+         @Html.TextBoxFor(x => x.FamilyName, new { @class = "form-control" })
+     </div>
+     <div class="form-group">
+         <label>Email</label>
+         @Html.ValidationMessageFor(x => x.Email, "", new { @class = "error" })
+         @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+     </div>
+     <div class="form-group">
+         <label>Address</label>
+         @Html.ValidationMessageFor(x => x.Address, "", new { @class = "error" })
+         @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
+     </div>
+     <div class="form-group">
+         <label>ZipCode</label>
+         @Html.ValidationMessageFor(x => x.ZipCode, "", new { @class = "error" })
+         @Html.TextBoxFor(x => x.ZipCode, new { @class = "form-control" })
+     </div>
+     <div class="form-group">
+         <label>City</label>
+         @Html.ValidationMessageFor(x => x.City, "", new { @class = "error" })
+         @Html.TextBoxFor(x => x.City, new { @class = "form-control" })
+     </div>
+     <div class="form-group">
+         <label>Phone</label>
+         @Html.ValidationMessageFor(x => x.Phone, "", new { @class = "error" })
+         @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+     </div>
+     <div class="form-group">
+         <button type="submit" class="btn btn-primary">Submit</button>
+         <button type="reset" class="btn btn-danger">Cancel</button>
+     </div>
+   </div>
+}
+
+

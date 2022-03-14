@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_testModelStoreContainer" CdmEntityContainer="db_testEntities">
+    <EntitySetMapping Name="tbl_assign">
+      <EntityTypeMapping TypeName="db_testModel.tbl_assign">
+        <MappingFragment StoreEntitySet="tbl_assign">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="FamilyName" ColumnName="FamilyName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

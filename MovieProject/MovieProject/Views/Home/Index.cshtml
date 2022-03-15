@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Movies Details</h1>
+</div>
+<form method="get" asp.action="Index">
+    <p>
+        <input type="search" placeholder="Enter Movie name....." value="@ViewData["mid"]" name="mvsearch" style="width:500px;"/>
+        <input type="submit" value="Search" class="btn btn-primary"/>
+        <a asp-action="Index">Get All Movies</a>
+    </p>
+</form>

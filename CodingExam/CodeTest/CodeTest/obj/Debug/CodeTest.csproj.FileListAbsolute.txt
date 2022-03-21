@@ -1,0 +1,8 @@
+F:\C#\26_Jan\CodingExam\CodeTest\CodeTest\bin\Debug\CodeTest.exe.config
+F:\C#\26_Jan\CodingExam\CodeTest\CodeTest\bin\Debug\CodeTest.exe
+F:\C#\26_Jan\CodingExam\CodeTest\CodeTest\bin\Debug\CodeTest.pdb
+F:\C#\26_Jan\CodingExam\CodeTest\CodeTest\obj\Debug\CodeTest.csproj.AssemblyReference.cache
+F:\C#\26_Jan\CodingExam\CodeTest\CodeTest\obj\Debug\CodeTest.csproj.SuggestedBindingRedirects.cache
+F:\C#\26_Jan\CodingExam\CodeTest\CodeTest\obj\Debug\CodeTest.csproj.CoreCompileInputs.cache
+F:\C#\26_Jan\CodingExam\CodeTest\CodeTest\obj\Debug\CodeTest.exe
+F:\C#\26_Jan\CodingExam\CodeTest\CodeTest\obj\Debug\CodeTest.pdb

@@ -1,0 +1,24 @@
+﻿
+@model IEnumerable<MvcFirstAssign.Models.Customer>
+@{
+    ViewBag.Title = "GetCustomerDetailsById";
+}
+
+<h2>Get Customer Details of ID 10248</h2>
+
+@foreach (var item in Model)
+{
+    <ul style="color:black">
+        <li>@item.CustomerID</li>
+        <li>@item.CompanyName</li>
+        <li>@item.ContactName</li>
+        <li>@item.ContactTitle</li>
+        <li>@item.Address</li>
+        <li>@item.City</li>
+        <li>@item.Phone</li>
+        <li>@item.PostalCode</li>
+        <li>@item.Country</li>
+        <li>@item.Fax</li>
+        <li>@item.Region</li>
+    </ul>
+}

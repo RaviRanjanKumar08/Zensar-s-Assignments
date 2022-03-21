@@ -26,7 +26,7 @@ namespace CodeTest
                     cmd.CommandType = CommandType.StoredProcedure;
                     SqlParameter sp = new SqlParameter
                     {
-                        ParameterName = "@empno",
+                        ParameterName = "@id",
                         SqlDbType = SqlDbType.Int,
                         Value = no,
                         Direction = ParameterDirection.Input
